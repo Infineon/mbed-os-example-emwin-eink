@@ -1,6 +1,6 @@
 # mbed-os-example-emwin-eink
 
-  
+Note: This project is not yet tested with Mbed OS version 5.13.x.  This will be done soon.  
 
 ## **Introduction**
 
@@ -47,3 +47,14 @@ This code example can be run using the following Cypress kits.
 [Segger EmWin User Guide](https://cypresssemiconductorco.github.io/middleware-emwin/UM03001_emWin5.pdf)
 
 [Cypress EmWin Middleware Overview](https://cypresssemiconductorco.github.io/middleware-emwin/emwin_overview/html/index.html)
+
+### Document History
+
+Document Title: emWin OLED for Mbed OS
+
+| Revision | Orig. of Change | Submission Date | Description of Change |
+| -------- | --------------- | --------------- | --------------------- |
+| **       | GRAA            | 5/23/2019       | New code example. Tested with Mbed OS Version 5.12.2      |
+
+------
+
