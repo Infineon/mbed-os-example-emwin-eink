@@ -50,7 +50,7 @@ This code example can be run using the following Cypress kits.
 
 ### Document History
 
-Document Title: emWin OLED for Mbed OS
+Document Title: emWin EInk for Mbed OS
 
 | Revision | Orig. of Change | Submission Date | Description of Change |
 | -------- | --------------- | --------------- | --------------------- |
