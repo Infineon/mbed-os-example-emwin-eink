@@ -1,4 +1,4 @@
-# mbed-os-example-emwin-eink
+﻿# mbed-os-example-emwin-eink
 
   
 
@@ -10,9 +10,17 @@ This code example demonstrates displaying graphics on an EInk display using EmWi
 
 This code example can be run using the following Cypress kits.
 
-[CY8CKIT-062BLE Kit with EInk shield](https://www.cypress.com/documentation/development-kitsboards/psoc-6-ble-pioneer-kit-cy8ckit-062-ble)
+[CY8CKIT-062 BLE Pioneer Kit](https://www.cypress.com/CY8CKIT-062-BLE) + [CY8CKIT-028-EPD E-Ink Display Shield](https://www.cypress.com/documentation/development-kitsboards/e-ink-display-shield-board-cy8ckit-028-epd)
 
-[CY8CKIT-062-WiFi-BT Kit](https://www.cypress.com/documentation/development-kitsboards/psoc-6-wifi-bt-pioneer-kit-cy8ckit-062-wifi-bt) with [CY8CKIT-028-EPD EInk Shield](https://www.cypress.com/documentation/development-kitsboards/e-ink-display-shield-board-cy8ckit-028-epd)  
+[CY8CKIT-062-WIFI-BT PSoC 6 WiFi-BT Pioneer Kit](https://www.cypress.com/cy8ckit-062-wifi-bt) + [CY8CKIT-028-EPD E-Ink Display Shield](https://www.cypress.com/documentation/development-kitsboards/e-ink-display-shield-board-cy8ckit-028-epd)
+
+This example uses the kit’s default configuration. Refer to the kit guide to ensure the kit is configured correctly.
+
+**Notes**: 
+
+1. The PSoC 6 BLE Pioneer kit and the PSoC 6 WiFi-BT Pioneer kit ship with KitProg2 installed. Med OS only works with KitProg3. Before using this code example, make sure that the kit is upgraded to KitProg3.  Instructions to upgrade to KitProg3 may be found in the [Firmware Loader](https://github.com/cypresssemiconductorco/Firmware-loader) GitHub repository.
+
+2. Once the firmware is upgraded, the kit has to be put in DAPLINK mode for Mbed to be able to program the board.  Refer the **KitProg3 User Guide** (found in the Documentation tab in the [Cypress Programming Solutions](https://www.cypress.com/products/psoc-programming-solutions) web page) for details of how to put the Pioneer Kit into DAPLINK mode.
 
 ## **Instructions to run the code example**
 
@@ -42,8 +50,21 @@ This code example can be run using the following Cypress kits.
     - 2D graphics #1
     - 2D graphics #2
 - The green LED is turned on when the display is updated with new content.
+
 ## **References**
 
-[Segger EmWin User Guide](https://cypresssemiconductorco.github.io/middleware-emwin/UM03001_emWin5.pdf)
+[Segger EmWin User Guide](https://cypresssemiconductorco.github.io/emwin/UM03001_emWin5.pdf)
 
-[Cypress EmWin Middleware Overview](https://cypresssemiconductorco.github.io/middleware-emwin/emwin_overview/html/index.html)
+[Cypress EmWin Middleware Overview](https://cypresssemiconductorco.github.io/emwin/emwin_overview/html/index.html)
+
+### Document History
+
+Document Title: emWin EInk for Mbed OS
+
+| Revision | Orig. of Change | Submission Date | Description of Change                                |
+| -------- | --------------- | --------------- | ---------------------------------------------------- |
+| **       | GRAA            | 5/23/2019       | New code example. Tested with Mbed OS Version 5.12.2 |
+| *A       | GRAA            | 8/23/2019       | Updated to Mbed OS 5.13.3                            |
+
+------
+
