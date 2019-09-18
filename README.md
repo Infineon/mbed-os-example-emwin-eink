@@ -1,6 +1,6 @@
 ﻿# mbed-os-example-emwin-eink
 
-  
+Note: This project does not work with Mbed OS version 5.13.x.  This will be updated soon.  
 
 ## **Introduction**
 
