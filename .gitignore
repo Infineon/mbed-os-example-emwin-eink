@@ -1,7 +1,20 @@
-BUILD/*
-.build
+# Libraries
+mbed-os/
+emwin/
+core-lib/
+display-eink-e2271cs021/
+
+
+# Build output
+BUILD/
+
+# Exports
+eclipse-extras/
+*.pyc
 .mbed
-projectfiles
-*.py*
-mbed-os
-middleware-emwin
+GettingStarted.html
+mbed_config.h
+mbed_settings.py
+
+# Misc
+.vscode/
